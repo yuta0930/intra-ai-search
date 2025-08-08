@@ -6,11 +6,11 @@
 # 1. ライブラリの読み込み
 ############################################################
 # 「.env」ファイルから環境変数を読み込むための関数
-from dotenv import load_dotenv
+from dotenv import load_dotenv # type: ignore
 # ログ出力を行うためのモジュール
 import logging
 # streamlitアプリの表示を担当するモジュール
-import streamlit as st
+import streamlit as st # type: ignore
 # （自作）画面表示以外の様々な関数が定義されているモジュール
 import utils
 # （自作）アプリ起動時に実行される初期化処理が記述された関数
