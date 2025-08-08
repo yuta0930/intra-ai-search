@@ -96,8 +96,6 @@ pyasn1==0.6.1
 pyasn1_modules==0.4.2
 pybase64==1.4.2
 pydantic==1.10.19
-pydantic-settings==2.10.1
-pydantic_core==2.33.2
 pydeck==0.9.1
 Pygments==2.18.0
 PyMuPDF==1.25.0
@@ -149,3 +147,4 @@ websockets==14.1
 yarl==1.18.3
 zipp==3.23.0
 zstandard==0.23.0
+
